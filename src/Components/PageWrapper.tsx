@@ -14,7 +14,7 @@ function PageWrapper({ title, subtitle, children }: PageWrapperProps) {
                     <h1 className="text-4xl font-serif tracking-tight md:text-5xl">{title}</h1>
                     <h2 className="text-lg text-stone-600 md:text-xl">{subtitle}</h2>
                 </header>
-                <div className="grid gap-6 md:grid-cols-2">{children}</div>
+                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">{children}</div>
             </div>
         </section>
     )
